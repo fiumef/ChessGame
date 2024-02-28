@@ -1,4 +1,4 @@
-import java.util.HashMap;
+//prova
 
 public class pseudoPawn {
     private boolean isBlack;
