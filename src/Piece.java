@@ -1,22 +1,20 @@
 //prova
 
-public class pseudoPawn {
-    private boolean isBlack;
+public class Piece {
+
     private boolean isWhite;
     private int xPosition;
     private int yPosition;
 
 
-    public pseudoPawn(boolean isBlack, boolean isWhite, int xPosition, int yPosition){
-        this.isBlack = isBlack;
-        this.isWhite = isWhite;
-        this.xPosition = xPosition;
-        this.yPosition = yPosition;
+    public Piece(boolean isWhite, int xPosition, int yPosition){
+
+        this.isWhite = this.isWhite;
+        this.xPosition = this.xPosition;
+        this.yPosition = this.yPosition;
     }
 
-    public boolean isBlack() {
-        return isBlack;
-    }
+
 
     public boolean isWhite() {
         return isWhite;
